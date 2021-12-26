@@ -35,7 +35,7 @@ function App1() {
 
       <div className="row my-5">
         <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 p-0">
-          <div className="d-flex align-items-center">
+          <div className="d-flex align-items-center flex-wrap">
             <div className="planing-image-container bg-danger">
               <img src="/girl 1.png" className="planing-image"></img>
             </div>
@@ -83,7 +83,7 @@ function App1() {
 
       <div className="row my-5">
         <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 p-0">
-          <div className="d-flex align-items-center">
+          <div className="d-flex align-items-center flex-wrap">
             <div className="editing-image-container">
               <img src="/girl 3.png" className="editing-image"></img>
             </div>

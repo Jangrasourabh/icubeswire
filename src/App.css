@@ -9,92 +9,6 @@ body {
   scroll-behavior: smooth;
   z-index: 0;
 }
-/* .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
-
-/* .first-heading-box {
-  position: absolute;
-  font-size: 4vw;
-  padding: 2vw 4.5vw;
-  background-color: #2877bc;
-  left: -50%;
-  transform: translate(50%);
-font-weight: bold;
-
-}
-.first-text-box {
-  position: relative;
-  padding: 5vw 8vw;
-  font-size: 1vw;
-  width: 35vw;
-  background-color: #98c0db;
-}
-.first-text-inner-box {
-  width: 10vw;
-}
-.second-text-box{
-  font-size: 3.5vw;
-  line-height: initial;
-}
-.second-text-bold{
-  font-weight: bold;
-}
-.second-text-inner-box{
-  font-size: 1vw;
-  width: 30vw;
-  text-align: end;
-}
-.second-text-inner-span{}
-
-.width-first{width: 41vw;}
-.width-second{width: 32vw;}
-.width-third{width: 30vw;}
-
-.joining-dash{
-  position: absolute;
-  width: 16vw;
-  height: 1vh;
-  background-color: black;
-  transform:rotate(62deg);
-  left: 47.8%;
-  top: 35%;
-} */
 
 .main-container {
   background-image: url("../public/background.png");
@@ -357,6 +271,47 @@ font-weight: bold;
 }
 
 @media (max-width: 575.98px) {
+  .hear-dash {
+    display: none;
+  }
+  .hear-container {
+    margin: 0;
+    padding: 1rem;
+    width: 100%;
+  }
+  .hear-text {
+    width: 100%;
+  }
+  .creating-text {
+    width: 100%;
+  }
+  .creating-container {
+    padding: 30rem 1rem 2rem;
+  }
+  .planing-text {
+    width: 100%;
+  }
+  .second-text-inner-box-2{
+    width: 100%;
+    padding: 0 1rem;
+  }
+  .first-text-box {
+    width: 100%;
+    padding:5rem 2rem;
+  }
+  .first-heading-box-blue{
+    bottom:-15rem;
+    left: 50%;
+    top: initial;
+    transform: translateX(-50%)
+  }
+  .first-text-inner-box{
+    width: 100%;
+  }
+  .logo-image{left: 0%;
+  top: 60%;}
+  
+  
   html,
   body {
     font-size: 55.6%;

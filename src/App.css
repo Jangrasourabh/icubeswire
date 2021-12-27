@@ -65,9 +65,9 @@ body {
 }
 .logo-image {
   position: absolute;
-  width: 100%;
-  top: 12%;
-  left: -40%;
+  height: 60rem;
+  top: -20%;
+  left: -25%;
 }
 .first-text-inner-box {
   width: 19rem;
@@ -87,7 +87,7 @@ body {
 }
 .second-text-inner-box-2 {
   font-size: 1.9rem;
-  width: 55rem;
+  width: 60rem;
   text-align: end;
 }
 .width-first {
@@ -227,6 +227,9 @@ body {
   z-index: -1;
 }
 @media (max-width: 1599.98px) {
+  .second-text-inner-box-2 {
+    width: 80rem;
+  }
   html,
   body {
     font-size: 55.6%;
@@ -237,6 +240,9 @@ body {
   html,
   body {
     font-size: 55.6%;
+  }
+  .second-text-inner-box-2 {
+    width: 60rem;
   }
   .joining-dash {
     position: absolute;
@@ -250,6 +256,9 @@ body {
 }
 
 @media (max-width: 1199.98px) {
+  .second-text-inner-box-2{
+    width: 40rem;
+  }
   html,
   body {
     font-size: 55.6%;
@@ -257,6 +266,20 @@ body {
 }
 
 @media (max-width: 991.98px) {
+  .editing-image-container {
+    width: 40rem;
+  }
+  .planing-image-container {
+    width: 35rem;
+    height: 40rem;
+  }
+  .planing-image{
+    position: absolute;
+    width: auto;
+    height: 100%;
+    left:-5rem;
+  }
+  
   html,
   body {
     font-size: 55.6%;
@@ -264,13 +287,14 @@ body {
 }
 
 @media (max-width: 767.98px) {
-  html,
-  body {
-    font-size: 55.6%;
+  /* .planing-image-container {
+    width: 35rem;
+    height: auto;
+  } */
+  .editing-image-container,
+  .planing-image-container {
+    width: 100%;
   }
-}
-
-@media (max-width: 575.98px) {
   .hear-dash {
     display: none;
   }
@@ -282,6 +306,7 @@ body {
   .hear-text {
     width: 100%;
   }
+  .editing-text,
   .creating-text {
     width: 100%;
   }
@@ -291,27 +316,45 @@ body {
   .planing-text {
     width: 100%;
   }
-  .second-text-inner-box-2{
+  .second-text-inner-box-2 {
     width: 100%;
     padding: 0 1rem;
   }
   .first-text-box {
     width: 100%;
-    padding:5rem 2rem;
+    padding: 5rem 2rem;
   }
-  .first-heading-box-blue{
-    bottom:-15rem;
+  .first-heading-box-blue {
+    bottom: -15rem;
     left: 50%;
     top: initial;
-    transform: translateX(-50%)
+    transform: translateX(-50%);
   }
-  .first-text-inner-box{
+  .first-text-inner-box {
     width: 100%;
   }
-  .logo-image{left: 0%;
-  top: 60%;}
-  
-  
+  .logo-image {
+    left: 0%;
+    top: 10%;
+    height: 30rem;
+  }
+  html,
+  body {
+    font-size: 55.6%;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .planing-image{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left:0;
+  }
+  .planing-image-container{
+    height: 35rem;
+
+  }
   html,
   body {
     font-size: 55.6%;

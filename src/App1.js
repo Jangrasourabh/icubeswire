@@ -18,8 +18,9 @@ function App1() {
                 Vdx is iCubesWire's in house production studio, in the other
                 words, it's a mill of ideas to churn out moving visuals
               </p>
-              <p className="first-heading-box-blue m-0"></p>
-              <img src="/logo.png" className="logo-image"></img>
+              <p className="first-heading-box-blue m-0">
+                <img src="/logo.png" className="logo-image"></img>
+              </p>
             </div>
           </div>
           <div className="d-flex flex-column align-items-end">
@@ -36,11 +37,11 @@ function App1() {
       <div className="row my-5">
         <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 p-0">
           <div className="d-flex align-items-center flex-wrap">
-            <div className="planing-image-container bg-danger">
+            <div className="planing-image-container bg-danger position-relative">
               <img src="/girl 1.png" className="planing-image"></img>
             </div>
             <div className="ps-5">
-              <h2 className="planing-heading text-danger">Planning</h2>
+              <h2 className="planing-heading text-danger ">Planning</h2>
               <p className="planing-text m-0 text-muted">
                 There is something sketch-y going on here. Our team of creative
                 individuals illustrate to give form to our ideas and
